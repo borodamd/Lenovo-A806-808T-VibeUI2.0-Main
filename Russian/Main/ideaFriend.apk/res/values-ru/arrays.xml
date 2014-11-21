@@ -1,27 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="preview">
+        <item>@drawable/preview1</item>
+        <item>@drawable/preview2</item>
+        <item>@drawable/preview3</item>
+    </array>
+    <array name="previewthumb">
+        <item>@drawable/preview1</item>
+        <item>@drawable/preview2</item>
+        <item>@drawable/preview3</item>
+    </array>
+    <string-array name="emoji_smiley_texts">
+        <item>\\ud83d\\ude03</item>
+        <item>\\ud83d\\ude1e</item>
+        <item>\\ud83d\\ude09</item>
+        <item>\\ud83d\\ude1d</item>
+        <item>\\ud83d\\ude31</item>
+        <item>\\ud83d\\ude18</item>
+        <item>\\ud83d\\ude0e</item>
+        <item>\\ud83d\\ude37</item>
+        <item>\\ud83d\\ude05</item>
+        <item>\\ud83d\\ude07</item>
+        <item>\\ud83d\\ude1e</item>
+        <item>\\ud83d\\ude2d</item>
+        <item>\\ud83d\\ude04</item>
+        <item>\\ud83d\\ude27</item>
+        <item>\\u2764</item>
+        <item>\\ud83d\\ude20</item>
+        <item>\\ud83d\\ude01</item>
+        <item>\\ud83d\\ude10</item>
+    </string-array>
+    <string-array name="forward_pref_sms_forward_need_add_values_oversea">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_message_font_size_values">
+        <item>18</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="forward_pref_sms_forward_need_add_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="default_smiley_names">
-        <item>Счастливый</item>
-        <item>Грустно</item>
-        <item>Подмигивание</item>
-        <item>Язык торчит</item>
-        <item>Удивлен</item>
-        <item>Поцелуи</item>
-        <item>Кричать</item>
-        <item>Прохладный</item>
-        <item>Деньги рот</item>
-        <item>Ноги в рот</item>
-        <item>Смущенный</item>
+        <item>Улыбка</item>
+        <item>Грусть</item>
+        <item>Подмигивает</item>
+        <item>Показывает язык</item>
+        <item>Удивление</item>
+        <item>Поцелуй</item>
+        <item>Кричит</item>
+        <item>Крутой</item>
+        <item>Не болтай попусту</item>
+        <item>В замешательстве</item>
+        <item>Смущение</item>
         <item>Ангел</item>
-        <item>Не знаю</item>
-        <item>Плач</item>
-        <item>Губы сомкнуты</item>
-        <item>Смеясь</item>
-        <item>Путать</item>
+        <item>Нерешительный</item>
+        <item>Плачет</item>
+        <item>Рот на замке</item>
+        <item>Смех</item>
+        <item>Озадаченный</item>
         <item>Сердце</item>
-        <item>Mad</item>
+        <item>Злой</item>
         <item>Ухмылка</item>
-        <item>Ничего не выражающее лицо</item>
+        <item>Бесстрастное лицо</item>
     </string-array>
     <string-array name="pref_mms_creation_mode_choices">
         <item>Ограниченный режим</item>
@@ -34,7 +105,7 @@
         <item>Перезвоните, пожалуйста!</item>
         <item>Извините, я сейчас на совещании.</item>
         <item>Скоро перезвоню.</item>
-        <item>"Не волнуйся, я в порядке."</item>
+        <item>Не волнуйся, я в порядке.</item>
         <item>Еду домой.</item>
         <item>Скоро буду.</item>
         <item>Обязательно приходи!</item>
@@ -50,16 +121,16 @@
     </string-array>
     <string-array name="pref_tablet_sms_save_location_choices">
         <item>Устройство</item>
-        <item>SIM карта</item>
+        <item>SIM-карта</item>
     </string-array>
     <string-array name="pref_tablet_sms_save_location_values">
-        <item>Телефон</item>
-        <item>SIM-карта</item>
+        <item>Phone</item>
+        <item>Sim</item>
     </string-array>
     <string-array name="pref_sms_input_mode_choice">
         <item>Алфавит GSM</item>
         <item>Юникод</item>
-        <item>Авто</item>
+        <item>Автоматически</item>
     </string-array>
     <string-array name="pref_message_font_size_choices">
         <item>Системный размер шрифта</item>
@@ -81,10 +152,10 @@
     </string-array>
     <string-array name="pref_sms_save_location_choices_ct">
         <item>Телефон</item>
-        <item>UIM карты</item>
+        <item>SIM-карта</item>
     </string-array>
     <string-array name="State">
-        <item>Гонконг, Макао и Тайваня регионах</item>
+        <item>Гонконг и Макао</item>
         <item>Азия</item>
         <item>Европа</item>
         <item>Африка</item>
@@ -106,7 +177,7 @@
         <item>Бутан +975</item>
         <item>Пакистан +92</item>
         <item>Бахрейн +973</item>
-        <item>Палестинская +970</item>
+        <item>Палестина +970</item>
         <item>Восточный Тимор +1</item>
         <item>Филиппины +63</item>
         <item>Грузия +995</item>
@@ -117,8 +188,8 @@
         <item>Катар +974</item>
         <item>Кувейт +965</item>
         <item>Ливан +961</item>
-        <item>Лаос +856</item>
-        <item>Мальдивские о-ва +960</item>
+        <item>Лаосс +856</item>
+        <item>Мальдивы +960</item>
         <item>Бангладеш +880</item>
         <item>Малайзия +60</item>
         <item>Япония +81</item>
@@ -129,7 +200,7 @@
         <item>Таджикистан +992</item>
         <item>Туркменистан +993</item>
         <item>Бруней +673</item>
-        <item>Узбекистан +998</item>
+        <item>Узбекистана +998</item>
         <item>Сингапур +65</item>
         <item>Сирия +963</item>
         <item>Индия +91</item>
@@ -178,7 +249,7 @@
         <item>Литва +370</item>
         <item>Латвия +371</item>
         <item>Лихтенштейн +423</item>
-        <item>Каймановы острова +1</item>
+        <item>Остров +1</item>
         <item>Молдова +373</item>
         <item>Монако +377</item>
         <item>Македония +389</item>
@@ -186,10 +257,10 @@
         <item>Норвегия +47</item>
         <item>Португалия +351</item>
         <item>Швеция +46</item>
+        <item>Швейцария +41</item>
         <item>Сербия +381</item>
         <item>Словакия +421</item>
         <item>Словения +386</item>
-        <item>Сан-Марино +378</item>
         <item>Сан-Марино +378</item>
         <item>Кипр +357</item>
         <item>Украина +380</item>
@@ -206,7 +277,7 @@
         <item>Египет +20</item>
         <item>Эфиопия +251</item>
         <item>Ботсвана +267</item>
-        <item>Буркина-Фасо +226</item>
+        <item>Буркина +226</item>
         <item>Бурунди +257</item>
         <item>Бенин +229</item>
         <item>Экваториальная Гвинея +240</item>
@@ -217,8 +288,8 @@
         <item>Джибути +253</item>
         <item>Гана +233</item>
         <item>Гвинея +224</item>
-        <item>Бисау +245</item>
-        <item>Габон +241</item>
+        <item>Гвинея-Бисау +245</item>
+        <item>Габон 241</item>
         <item>Камерун +237</item>
         <item>Коморские острова +269</item>
         <item>Кения +254</item>
@@ -237,9 +308,9 @@
         <item>Намибия +264</item>
         <item>Нигер +227</item>
         <item>Нигерия +234</item>
-        <item>Судан +249</item>
-        <item>Сьерра-Леоне +232</item>
-        <item>Сомали +252</item>
+        <item>Султан +249</item>
+        <item>Сьерра Леоне +232</item>
+        <item>Сомалийский +252</item>
         <item>Сенегал +221</item>
         <item>Сейшельские острова +248</item>
         <item>Свазиленд +268</item>
@@ -247,23 +318,23 @@
         <item>Танзания +255</item>
         <item>Уганда +256</item>
         <item>Западная Сахара +1</item>
-        <item>ивуариец +225</item>
+        <item>Кот-д Ивуар +225</item>
         <item>Замбия +260</item>
         <item>Чад +235</item>
-        <item>Центральноафриканская Республика +236</item>
+        <item>Центрально-Африканская Республика +236</item>
     </string-array>
     <string-array name="central_america">
         <item>Белиз +501</item>
     </string-array>
     <string-array name="oceanica">
         <item>Австралия +61</item>
-        <item>Папуа-Новая Гвинея: +675</item>
+        <item>Папуа-Новая Гвинея +675</item>
         <item>Науру +674</item>
         <item>Палау +680</item>
-        <item>Соломоновы острова +677</item>
+        <item>Соломоновы Острова +677</item>
         <item>Самоа +685</item>
         <item>Тонга +676</item>
-        <item>Теркс и Кайкос +1649</item>
+        <item>Острова Тёркс и Кайкос +1649</item>
         <item>Вануату +678</item>
         <item>Гватемала +502</item>
         <item>Новая Каледония +687</item>
@@ -274,16 +345,16 @@
     <string-array name="america">
         <item>Аргентина +54</item>
         <item>Аруба +297</item>
-        <item>Антигуа и Барбуда +1268</item>
+        <item>Антигуа +1268</item>
         <item>Барбадос +1246</item>
-        <item>Пуэрто +1787</item>
-        <item>Багамы +1242</item>
+        <item>Пуэрто-Рико +1787</item>
+        <item>Багамские острова +1242</item>
         <item>Перу +51</item>
         <item>Боливия +591</item>
         <item>Бермуды +1441</item>
         <item>Панама +507</item>
         <item>Бразилия +55</item>
-        <item>Доминика +1767</item>
+        <item>Доминик +1767</item>
         <item>Эквадор +593</item>
         <item>Куба +53</item>
         <item>Колумбия +57</item>
@@ -294,29 +365,124 @@
         <item>Канада +1</item>
         <item>Каймановы острова +1345</item>
         <item>США +1</item>
-        <item>Самоа острова +684</item>
+        <item>Американское Самоа +684</item>
         <item>Американские Виргинские острова +1340</item>
         <item>Монтсеррат +1664</item>
         <item>Мексика +52</item>
         <item>Никарагуа +505</item>
-        <item>Сальвадор +503</item>
+        <item>Эль-Сальвадор +503</item>
         <item>Сент-Китс и Невис +1869</item>
         <item>Суринам +597</item>
-        <item>Люсия +58</item>
+        <item>Лючия +58</item>
         <item>Тринидад и Тобаго +1868</item>
         <item>Уругвай +598</item>
         <item>Венесуэла +58</item>
         <item>Чили +56</item>
     </string-array>
+    <integer-array name="country_mcc">
+        <item>202</item>
+        <item>204</item>
+        <item>206</item>
+        <item>208</item>
+        <item>213</item>
+        <item>214</item>
+        <item>216</item>
+        <item>219</item>
+        <item>222</item>
+        <item>226</item>
+        <item>228</item>
+        <item>230</item>
+        <item>232</item>
+        <item>234</item>
+        <item>238</item>
+        <item>240</item>
+        <item>242</item>
+        <item>244</item>
+        <item>246</item>
+        <item>247</item>
+        <item>250</item>
+        <item>255</item>
+        <item>260</item>
+        <item>262</item>
+        <item>266</item>
+        <item>268</item>
+        <item>270</item>
+        <item>272</item>
+        <item>274</item>
+        <item>276</item>
+        <item>280</item>
+        <item>283</item>
+        <item>284</item>
+        <item>286</item>
+        <item>302</item>
+        <item>310</item>
+        <item>410</item>
+        <item>412</item>
+        <item>415</item>
+        <item>416</item>
+        <item>418</item>
+        <item>419</item>
+        <item>422</item>
+        <item>426</item>
+        <item>428</item>
+        <item>429</item>
+        <item>432</item>
+        <item>434</item>
+        <item>440</item>
+        <item>452</item>
+        <item>470</item>
+        <item>472</item>
+        <item>502</item>
+        <item>505</item>
+        <item>515</item>
+        <item>520</item>
+        <item>525</item>
+        <item>602</item>
+        <item>603</item>
+        <item>605</item>
+        <item>607</item>
+        <item>608</item>
+        <item>617</item>
+        <item>618</item>
+        <item>620</item>
+        <item>621</item>
+        <item>624</item>
+        <item>634</item>
+        <item>634</item>
+        <item>639</item>
+        <item>640</item>
+        <item>641</item>
+        <item>642</item>
+        <item>646</item>
+        <item>648</item>
+        <item>649</item>
+        <item>650</item>
+        <item>654</item>
+        <item>655</item>
+        <item>716</item>
+        <item>722</item>
+        <item>724</item>
+        <item>730</item>
+        <item>736</item>
+        <item>744</item>
+    </integer-array>
+    <string-array name="pref_away_mode_remminding_type">
+        <item>@string/pref_away_mode_reminding_none</item>
+        <item>@string/pref_away_mode_reminding_ringtone</item>
+    </string-array>
+    <string-array name="pref_away_mode_remminding_type_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="pref_mms_creation_mode_values">
-        <item>ОГРАНИЧЕНИЯ</item>
-        <item>ПРЕДУПРЕЖДЕНИЕ</item>
-        <item>БЕСПЛАТНО</item>
+        <item>RESTRICTED</item>
+        <item>WARNING</item>
+        <item>FREE</item>
     </string-array>
     <string-array name="pref_mms_size_limit_choices">
-        <item>100K</item>
-        <item>200K</item>
-        <item>300K</item>
+        <item>100 Кб.</item>
+        <item>200 Кб.</item>
+        <item>300 Кб.</item>
     </string-array>
     <string-array name="pref_mms_size_limit_values">
         <item>100</item>
@@ -325,44 +491,52 @@
     </string-array>
     <string-array name="pref_key_mms_priority_values">
         <item>Высокий</item>
-        <item>Нормальный</item>
+        <item>Обычный</item>
         <item>Низкий</item>
     </string-array>
     <string-array name="pref_sms_input_mode_values">
-        <item>GSM алфавит</item>
+        <item>Алфавит GSM</item>
         <item>Юникод</item>
-        <item>Автоматический</item>
+        <item>Автоматически</item>
     </string-array>
     <string-array name="pref_sms_save_location_values">
-        <item>Phone</item>
-        <item>Sim</item>
+        <item>Телефон</item>
+        <item>SIM-карта</item>
+    </string-array>
+    <string-array name="pref_message_view_mode_choices">
+        <item>@string/conversation_view</item>
+        <item>@string/folderview_title</item>
+    </string-array>
+    <string-array name="pref_message_view_mode_value">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="sound_effect_list">
         <item>По умолчанию</item>
         <item>Пианино</item>
     </string-array>
     <string-array name="photo_display_settings_styles">
-        <item>С первой буквы</item>
-        <item>От последней буквы</item>
+        <item>Первые буквы</item>
+        <item>Последние буквы</item>
     </string-array>
     <string-array name="callog_display_style_value">
         <item>По дате</item>
-        <item>По контакту</item>
+        <item>По имени</item>
     </string-array>
     <string-array name="dial_start_action_value">
-        <item>Панель набора номера</item>
+        <item>Номеронабиратель</item>
         <item>Журнал вызовов</item>
     </string-array>
     <string-array name="lunar_month_array">
-        <item>"Янв "</item>
-        <item>"Февр "</item>
-        <item>"Март "</item>
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>"Мар "</item>
         <item>"Апр "</item>
         <item>"Май "</item>
         <item>"Июнь "</item>
-        <item>"Июль "</item>
+        <item>Июль</item>
         <item>"Авг "</item>
-        <item>"Сент "</item>
+        <item>"Сен "</item>
         <item>"Окт "</item>
         <item>"Нояб "</item>
         <item>"Дек "</item>
@@ -415,9 +589,9 @@
         <item>Email</item>
     </string-array>
     <string-array name="infocenter_master_info_list_sex">
-        <item>Не указывать</item>
-        <item>Мужской</item>
-        <item>Женский</item>
+        <item>Не указано</item>
+        <item>Муж.</item>
+        <item>Жен.</item>
     </string-array>
     <string-array name="select_dialog_items">
         <item>1 секунда</item>
@@ -467,12 +641,12 @@
         <item>36</item>
     </string-array>
     <string-array name="callog_click_action_value">
-        <item>Сделать вызов</item>
-        <item>Посмотреть историю звонков</item>
+        <item>Набрать номер</item>
+        <item>Журнал вызовов абонента</item>
     </string-array>
     <string-array name="number_match_style_value">
-        <item>11</item>
-        <item>7</item>
+        <item>по 11-ти цифрам</item>
+        <item>по 7-ми цифрам</item>
     </string-array>
     <string-array name="language_list_values">
         <item>Все языки</item>
@@ -491,8 +665,8 @@
         <item>Турецкий</item>
         <item>Венгерский</item>
         <item>Польский</item>
-        <item>Другие</item>
-        <item>Чехия</item>
+        <item>Другой</item>
+        <item>Чешский</item>
         <item>Иврит</item>
         <item>Арабский</item>
         <item>Русский</item>

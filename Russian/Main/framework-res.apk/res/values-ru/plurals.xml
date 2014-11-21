@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="pinpuk_attempts">
-        <item quantity="other">У вас %d попыток до блокировки SIM-карты.</item>
-        <item quantity="one">У вас осталось %d попытки до блокировки SIM-карты.</item>
+        <item quantity="other">У Вас осталось %d попыток прежде, чем SIM карта заблокируется.</item>
+        <item quantity="one">У Вас осталось %d попыток прежде, чем SIM карта заблокируется.</item>
     </plurals>
     <plurals name="num_seconds_ago">
         <item quantity="other">%d с. назад</item>
@@ -40,8 +40,8 @@
         <item quantity="one">завтра</item>
     </plurals>
     <plurals name="abbrev_num_seconds_ago">
-        <item quantity="other">%d мин. назад</item>
-        <item quantity="one">1 мин. назад</item>
+        <item quantity="other">%d сек. назад</item>
+        <item quantity="one">1 сек. назад</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d мин. назад</item>
@@ -84,19 +84,15 @@
         <item quantity="one">1 час</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">Доступна сеть WLAN</item>
-        <item quantity="one">Доступна сеть WLAN</item>
+        <item quantity="other">Доступна сеть Wi-Fi</item>
+        <item quantity="one">Доступна сеть Wi-Fi</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">Найдены доступные сети WLAN</item>
-        <item quantity="one">Найдена доступная сеть WLAN</item>
+        <item quantity="other">Найдены доступные сети Wi-Fi</item>
+        <item quantity="one">Найдена доступная сеть Wi-Fi</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d из %2$d</item>
         <item quantity="one">1 совпадение</item>
-    </plurals>
-    <plurals name="restr_pin_countdown">
-        <item quantity="other">Повторите через %d секунд</item>
-        <item quantity="one">Повторите через 1 секунду</item>
     </plurals>
 </resources>

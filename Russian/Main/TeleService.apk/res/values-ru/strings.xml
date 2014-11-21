@@ -6,15 +6,6 @@
     <string name="dialer_default_class">com.android.dialer.DialtactsActivity</string>
     <string name="carrier_settings" />
     <string name="carrier_settings_menu" />
-    <string name="auto_start_record_label">Автоматическая запись</string>
-    <string name="auto_record_setting_title">Автоматическая запись</string>
-    <string name="auto_record_setting_summer">Автоматически начинать запись разговора после ответа</string>
-    <string name="auto_record_setting_actionbar_tile">Настройки записи</string>
-    <string name="auto_record_setting_OnOrOff_tile">Активация записи</string>
-    <string name="auto_record_setting_contact">Укажите условия записи</string>
-    <string name="auto_record_contact1">Все</string>
-    <string name="auto_record_contact2">Контакты</string>
-    <string name="auto_record_contact3">Неизвестные</string>
     <string name="onscreenHangupAll">«Повесить» все телефонные трубки</string>
     <string name="onscreenHangupHolding">Удержание режима «повешенной» трубки</string>
     <string name="onscreenHangupActiveAndAnswerWaiting">Режим «повешенной» трубки активен, ожидание ответа</string>
@@ -142,13 +133,13 @@
     <string name="dualtalk_tip_accept_disconnect_voice">Принятие этого звонка приведет к завершению голосового вызова.</string>
     <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Принятие этого звонка приведет к завершению исходящего звонка и отклонению другого входящего звонка.</string>
     <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Принятие этого звонка приведет к завершению текущего звонка и отклонению другого входящего звонка.</string>
-    <string name="end_call_because_can_not_hold">"Завершить текущий вызов, т.к. его удержаниезапрещено."</string>
+    <string name="end_call_because_can_not_hold">Завершить текущий вызов, т.к. его удержаниезапрещено.</string>
     <string name="ring_only_once_title">Однократный сигнал</string>
     <string name="ring_only_once_summary">Прием видеозвонка в режиме голосового вызова после первого звукового сигнала</string>
     <string name="fdn_contact_name_number_invalid">Обязательно укажите имя или номер.</string>
     <string name="fdn_contact_number_invalid">Неверный номер контакта.</string>
     <string name="fdn_phone_book_busy">Телефонная книга в настоящий момент занята, попробуйте повторить попытку позднее.</string>
-    <string name="cdma_not_support">"CDMA не поддерживает данную функцию"</string>
+    <string name="cdma_not_support">CDMA не поддерживает данную функцию</string>
     <string name="cdma_cfu_title">China Telecom</string>
     <string name="labelCFC">Отменить переадресацию всех вызовов</string>
     <string name="cdma_cfu_dialog_sum">Всегда использовать этот номер</string>
@@ -288,10 +279,10 @@
     <string name="international_dialing_title">Помощь для выполнения международного вызова</string>
     <string name="international_dialing_select_country">Обнаружено, что вы осуществляете международный вызов. Выберите место назначения.</string>
     <string name="international_dialing_add_country_code" formatted="false">Обнаружено, что вы набираете номер в: %s. Добавить код страны: (+%s)?</string>
-    <string name="international_dialing_add_country_code_and_area_code">"Обнаружено, что вы набираете номер в: %1$s, %2$s. Добавить код страны и города: (+%3$s)?"</string>
+    <string name="international_dialing_add_country_code_and_area_code">Обнаружено, что вы набираете номер в: %1$s, %2$s. Добавить код страны и города: (+%3$s)?</string>
     <string name="international_dialing_change_country_prefix">"Обнаружено, что вы набираете номер из: %s. Сменить префикс международного набора на: '+'?"</string>
-    <string name="international_dialing_add_country_code_input_area_code">"Обнаружено, что вы набираете номер в: %s. Если это так, укажите код города."</string>
-    <string name="international_dialing_add_country_code_default_input_area_code" formatted="false">"Обнаружено, что вы набираете номер в: %s. Если номер вызываемого абонента не находится в городе %s, укажите код города."</string>
+    <string name="international_dialing_add_country_code_input_area_code">Обнаружено, что вы набираете номер в: %s. Если это так, укажите код города.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code" formatted="false">Обнаружено, что вы набираете номер в: %s. Если номер вызываемого абонента не находится в городе %s, укажите код города.</string>
     <string name="international_dialing_need_area_code">Для осуществления вызова необходимо указать код города вызываемого абонента.</string>
     <string name="international_dialing_input_area_code">Введите сюда код города</string>
     <string name="international_dialing_dialed_number">Набор номера:</string>
@@ -343,10 +334,7 @@
     <string name="in_search_femtocell_networks_wait_tip">Поиск...</string>
     <string name="sum_search_femtocell_networks">Вручную выбрать фемтосот</string>
     <string name="register_femtocell_point_wait_tip">Регистрация %s ...</string>
-    <string name="register_femtocell_point_result_fail_tip">"Не удается подключиться к этой сети прямо сейчас. Повторите попытку позже."</string>
-    <string name="anc_title">Активное шумоподавление</string>
-    <string name="anc_on">ANC вкл</string>
-    <string name="anc_off">ANC выкл</string>
+    <string name="register_femtocell_point_result_fail_tip">Не удается подключиться к этой сети прямо сейчас. Повторите попытку позже.</string>
     <string name="minutereminder_turnon">Включить напоминание на 50-й секунде каждой минуты</string>
     <string name="minutereminder_turnoff">Отключить минутное напоминание</string>
     <string name="fake_phone_activity_infoText_text">Номер входящего вызова</string>
@@ -370,7 +358,7 @@
     <string name="auth_username">Имя пользователя</string>
     <string name="default_port">5060</string>
     <string name="default_transport">UDP</string>
-    <string name="throttle_help_subtext">"Подробнее о политике передачи данных вашего оператора мобильной связи"</string>
+    <string name="throttle_help_subtext">Подробнее о политике передачи данных вашего оператора мобильной связи</string>
     <string name="throttle_time_frame_subtext">"%1$d٪ цикла прошло
 Следующий период начинается в %2$d дней (%3$s)"</string>
     <string name="phoneAppLabel">Телефон</string>
@@ -646,8 +634,8 @@
     <string name="deleting_fdn_contact">Выполняется удаление номера ограниченного набора…</string>
     <string name="fdn_contact_deleted">Номер ограниченного набора удален.</string>
     <string name="pin2_invalid">Разрешенный номер не обновлен, так как введен неверный PIN-код.</string>
-    <string name="fdn_invalid_number">"Разрешенный номер не обновлен, т. к. не может содержать более 20 цифр."</string>
-    <string name="pin2_or_fdn_invalid">"Список разрешенных номеров не обновлен. Указан неверный PIN2 или номер телефона."</string>
+    <string name="fdn_invalid_number">Разрешенный номер не обновлен, т. к. не может содержать более 20 цифр.</string>
+    <string name="pin2_or_fdn_invalid">Список разрешенных номеров не обновлен. Указан неверный PIN2 или номер телефона.</string>
     <string name="fdn_failed">Операция FDN удалось.</string>
     <string name="simContacts_emptyLoading">Считывание с SIM-карты…</string>
     <string name="simContacts_empty">На SIM-карте нет контактов.</string>
@@ -787,7 +775,7 @@
     <string name="phone_entered_ecm_text">Телефон переведен в режим экстренных обратных вызовов</string>
     <string name="phone_in_ecm_notification_title">Режим экстренных обратных вызовов</string>
     <string name="phone_in_ecm_call_notification_text">Передача данных отключена</string>
-    <string name="alert_dialog_in_ecm_call">"Выбранное действие невозможно при экстренном вызове."</string>
+    <string name="alert_dialog_in_ecm_call">Выбранное действие невозможно при экстренном вызове.</string>
     <string name="progress_dialog_exiting_ecm">Выход из режима экстренных обратных вызовов</string>
     <string name="alert_dialog_yes">Да</string>
     <string name="alert_dialog_no">Нет</string>
@@ -970,5 +958,17 @@
     <string name="receiver_quality_standard">Стандартный</string>
     <string name="receiver_quality_light">Освещение</string>
     <string name="receiver_quality_soft">Мягкий</string>
-    <string name="incall_revert_content_summery">"Я сейчас за рулём. Я отвечу вам позже."</string>
+    <string name="incall_revert_content_summery">Я сейчас за рулём. Я отвечу вам позже.</string>
+    <string name="auto_start_record_label">Автоматическая запись</string>
+    <string name="auto_record_setting_title">Автоматическая запись</string>
+    <string name="auto_record_setting_summer">Автоматически начинать запись разговора после ответа</string>
+    <string name="auto_record_setting_actionbar_tile">Настройки записи</string>
+    <string name="auto_record_setting_OnOrOff_tile">Активация записи</string>
+    <string name="auto_record_setting_contact">Укажите условия записи</string>
+    <string name="auto_record_contact1">Все</string>
+    <string name="auto_record_contact2">Контакты</string>
+    <string name="auto_record_contact3">Неизвестные</string>
+    <string name="anc_title">Активное шумоподавление</string>
+    <string name="anc_on">ANC вкл</string>
+    <string name="anc_off">ANC выкл</string>
 </resources>

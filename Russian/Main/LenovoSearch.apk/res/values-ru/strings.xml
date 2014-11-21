@@ -3,7 +3,7 @@
     <string name="app_name">Поиск</string>
     <string name="search_widget">Поиск</string>
     <string name="remove_from_history">Удалить из истории поиска</string>
-    <string name="remove_from_history_failed">"Не удалось удалить элемент из истории"</string>
+    <string name="remove_from_history_failed">Не удалось удалить элемент из истории</string>
     <string name="corpus_selection_heading">Поиск</string>
     <string name="corpus_label_global">Все</string>
     <string name="corpus_label_web">Веб</string>

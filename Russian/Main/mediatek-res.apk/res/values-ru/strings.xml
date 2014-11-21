@@ -95,10 +95,6 @@
     <string name="RejectCauseTitle">Отказ сети</string>
     <string name="MMRejectCause2">Не предусмотренная SIM-карта MM #2</string>
     <string name="MMRejectCause3">Не разрешеннная SIM-карта MM #3</string>
-    <string name="VideoView_error_text_invalid_connection">Invalid connection. (403 Forbidden)</string>
-    <string name="wikiPediaName">Википедия</string>
-    <string name="redo">Повтор</string>
-    <string name="undo">Отмена</string>
     <string name="MMRejectCause5">Вызов не удался MM #5</string>
     <string name="MMRejectCause6">Звонок не разрешен MM #6</string>
     <string name="usbint_notification_title">USB-интернет активен</string>
@@ -109,12 +105,6 @@
     <string name="sdcard_ready_title">SD-карта готова</string>
     <string name="sdcard_select_default_path">Хотите изменить диск для записи по умолчанию?</string>
     <string name="sdcard_default_path_change">Диск для записи по умолчанию был изменен</string>
-    <string name="undoAll">Отменить все</string>
-    <string name="new_sim">Новая SIM</string>
-    <string name="edit">Редактировать</string>
-    <string name="delete">Удалить</string>
-    <string name="for_text">для</string>
-    <string name="searching_simcard">Обнаружение...</string>
     <string name="wifi_display_unstable_connection">Нестабильная связь</string>
     <string name="wifi_display_connection_is_not_steady">Текущая связь беспроводного показа не устойчива.</string>
     <string name="wifi_display_unstable_suggestion">Текущая связь беспроводного показа не устойчива, пожалуйста, попытайтесь стать ближе к своему устройству отображения.</string>
@@ -124,7 +114,21 @@
     <string name="wifi_display_disconnected">Беспроводной дисплей отключен</string>
     <string name="wifi_wps_failed_overlap">Другая WPS сессия была обнаружена. Пожалуйста, попробуйте еще раз через несколько минут.</string>
     <string name="wifi_display_wfd_and_wifi_are_turned_on">Беспроводной дисплей и Wi-Fi включены</string>
-    <string name="wifi_display_sound_path_reminder">"Мультимедиа не будет играть с гарнитуры"</string>
+    <string name="wifi_display_sound_path_reminder">Мультимедиа не будет играть с гарнитуры</string>
+    <string name="VideoView_error_text_invalid_connection">Invalid connection. (403 Forbidden)</string>
+    <string name="wikiPediaName">Википедия</string>
+    <string name="redo">Повтор</string>
+    <string name="undo">Отмена</string>
+    <string name="undoAll">Отменить все</string>
+    <string name="wifi_display_change_resolution_reminder">Изменение разрешения автоматически произведёт переподключение беспроводного дисплея</string>
+    <string name="wifi_display_do_not_remind_again">Не напоминать</string>
+    <string name="wifi_display_wifi_ap_affects_quality">Текущая точка доступа Wi-Fi может повлиять на качество работы беспроводного дисплея</string>
+    <string name="data_conn_only">Только мобильная сеть</string>
+    <string name="new_sim">Новая SIM</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="for_text">для</string>
+    <string name="searching_simcard">Обнаружение...</string>
     <string name="for_first_simcard">Для SIM1</string>
     <string name="for_second_simcard">Для SIM2</string>
     <string name="for_third_simcard">Для SIM3</string>
@@ -135,10 +139,6 @@
     <string name="lockscreen_password_too_many_failed_attempts_dialog_message" formatted="false">"Вы неправильно ввели пароль %d раз. 
 
 Попробуйте еще раз через %d сек."</string>
-    <string name="wifi_display_change_resolution_reminder">Изменение разрешения автоматически произведёт переподключение беспроводного дисплея</string>
-    <string name="wifi_display_do_not_remind_again">Не напоминать</string>
-    <string name="wifi_display_wifi_ap_affects_quality">Текущая точка доступа Wi-Fi может повлиять на качество работы беспроводного дисплея</string>
-    <string name="data_conn_only">Только мобильная сеть</string>
     <string name="aerr_application_lowstorage">Внутренняя память заканчивается, по этому приложение было остановлено. Освободите место и попробуйте еще раз.</string>
     <string name="aerr_process_lowstorage">Внутренняя память заканчивается, по этому процесс был остановлен. Освободите место и попробуйте еще раз.</string>
     <string name="low_internal_storage_view_title">Внутренняя память заканчивается</string>

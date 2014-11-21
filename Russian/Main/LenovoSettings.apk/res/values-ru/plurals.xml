@@ -30,7 +30,7 @@
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d приложений могут читать уведомления</item>
-        <item quantity="one">%d app могжет читать уведомления</item>
+        <item quantity="one">%d app могут читать уведомления</item>
     </plurals>
     <plurals name="wrong_pin_code">
         <item quantity="other">Не верный PIN-код, у вас осталось %d попыток</item>

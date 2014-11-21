@@ -37,16 +37,16 @@
         <item quantity="one">Голосовая почта</item>
     </plurals>
     <plurals name="searchFoundCalllogs">
-        <item quantity="other">Журналов вызовов: %d</item>
-        <item quantity="one">Журналов вызовов: 1</item>
+        <item quantity="other">%d вызовов</item>
+        <item quantity="one">1 вызов</item>
     </plurals>
     <plurals name="search_listTotalAllContacts">
         <item quantity="other">Поиск контактов | Всего %d контак.</item>
         <item quantity="one">Поиск контактов | Всего 1 контакт</item>
     </plurals>
     <plurals name="group_member_number">
-        <item quantity="other">%d пользователь(ей)</item>
-        <item quantity="one">1 пользователь</item>
+        <item quantity="other">%d участника(ов)</item>
+        <item quantity="one">1 участник</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">Будет удалено бесед: %1$s</item>
@@ -57,9 +57,9 @@
         <item quantity="one">Непрочитанных сообщений: %d.</item>
     </plurals>
     <plurals name="slide_duration">
-        <item quantity="other">%s с</item>
-        <item quantity="one">%s с</item>
-        <item quantity="few">%s с</item>
+        <item quantity="other">%s сек.</item>
+        <item quantity="one">%s сек.</item>
+        <item quantity="few">%s сек.</item>
     </plurals>
     <plurals name="search_results_title">
         <item quantity="other">Результатов для \"%2$s\": %1$s</item>
@@ -81,19 +81,19 @@
         <item quantity="one">Отметить 1 беседу как прочитанную</item>
     </plurals>
     <plurals name="group_messages_sending">
-        <item quantity="other">%1$s сообщения об отправке...</item>
-        <item quantity="one">%1$s отправка сообщений...</item>
+        <item quantity="other">отправка %1$s сообщений...</item>
+        <item quantity="one">отправка %1$s сообщения...</item>
     </plurals>
     <plurals name="group_messages_sent">
-        <item quantity="other">%1$s отправлено сообщений.</item>
-        <item quantity="one">%1$s сообщение было отправлено.</item>
+        <item quantity="other">%1$s сообщений отправлено.</item>
+        <item quantity="one">%1$s сообщение отправлено.</item>
     </plurals>
     <plurals name="group_messages_failed">
-        <item quantity="other">%1$s сообщений не удалось отправить.</item>
-        <item quantity="one">%1$s сообщение не удалось отправить.</item>
+        <item quantity="other">Ошибка отправки %1$s сообщений.</item>
+        <item quantity="one">Ошибка отправки %1$s сообщения.</item>
     </plurals>
     <plurals name="group_messages_address_title">
-        <item quantity="other">%1$s получатели.</item>
+        <item quantity="other">%1$s получателей.</item>
         <item quantity="one">%1$s получатель.</item>
     </plurals>
 </resources>

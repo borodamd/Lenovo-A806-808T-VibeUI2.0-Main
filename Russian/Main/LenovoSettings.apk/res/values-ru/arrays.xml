@@ -90,13 +90,13 @@
     <string-array name="tts_rate_entries">
         <item>Очень медленная</item>
         <item>Медленная</item>
-        <item>Обычная</item>
+        <item>Нормальная</item>
         <item>Быстрая</item>
-        <item>Чуть быстрей</item>
-        <item>Ещё быстрей</item>
-        <item>Ещё немного быстей</item>
-        <item>Очень быстро</item>
-        <item>Слишком быстро</item>
+        <item>Быстрее</item>
+        <item>Еще быстрее</item>
+        <item>Высокая</item>
+        <item>Очень высокая</item>
+        <item>Самая быстрая</item>
     </string-array>
     <string-array name="tts_rate_values">
         <item>60</item>
@@ -110,11 +110,11 @@
         <item>400</item>
     </string-array>
     <string-array name="tts_pitch_entries">
-        <item>Очень низкий</item>
-        <item>Низкий</item>
-        <item>Обычный</item>
-        <item>Высокий</item>
-        <item>Очень высокий</item>
+        <item>Очень низкая</item>
+        <item>Низкая</item>
+        <item>Нормальнаяя</item>
+        <item>Высокая</item>
+        <item>Очень высокая</item>
     </string-array>
     <string-array name="tts_pitch_values">
         <item>50</item>
@@ -192,16 +192,16 @@
         <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Push-кнопка</item>
-        <item>PIN-код с обнаруженного устройства</item>
-        <item>PIN-код этого устройства</item>
+        <item>Нажмите кнопку</item>
+        <item>PIN с однорангового устройства</item>
+        <item>PIN с этого устройства</item>
     </string-array>
     <string-array name="wifi_p2p_status">
         <item>Подключено</item>
         <item>Приглашено</item>
         <item>Сбой</item>
         <item>Доступно</item>
-        <item>Вне диапазона</item>
+        <item>Вне зоны досягаемости</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
         <item>2 мин.</item>
@@ -211,8 +211,7 @@
     </string-array>
     <string-array name="wifi_signal">
         <item>Слабый</item>
-        <item>Плохой</item>
-        <item>Нормальный</item>
+        <item>Хороший</item>
         <item>Хороший</item>
         <item>Отличный</item>
     </string-array>
@@ -243,8 +242,8 @@
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Время использования</item>
-        <item>Подсчитать</item>
-        <item>Название приложения</item>
+        <item>Количество запусков</item>
+        <item>Название программы</item>
     </string-array>
     <string-array name="wifi_eap_entries">
         <item>PEAP</item>
@@ -253,12 +252,12 @@
         <item>PWD</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>None</item>
+        <item>Нет</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
-        <item>None</item>
+        <item>Нет</item>
         <item>PAP</item>
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
@@ -266,7 +265,7 @@
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
-        <item>Пользовательские</item>
+        <item>Статический</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Нет</item>
@@ -345,101 +344,101 @@
         <item>auto</item>
     </string-array>
     <string-array name="app_ops_categories">
-        <item>Location</item>
-        <item>Personal</item>
-        <item>Messaging</item>
-        <item>Media</item>
-        <item>Device</item>
+        <item>Расположение</item>
+        <item>Личные данные</item>
+        <item>Обмен сообщениями</item>
+        <item>Мультимедиа</item>
+        <item>Устройство</item>
     </string-array>
     <string-array name="app_ops_summaries">
-        <item>coarse location</item>
-        <item>fine location</item>
+        <item>приблизительное местонахождение</item>
+        <item>точное местонахождение</item>
         <item>GPS</item>
-        <item>vibrate</item>
-        <item>read contacts</item>
-        <item>modify contacts</item>
-        <item>read call log</item>
-        <item>modify call log</item>
-        <item>read calendar</item>
-        <item>modify calendar</item>
-        <item>wi-fi scan</item>
-        <item>notification</item>
-        <item>cell scan</item>
-        <item>call phone</item>
-        <item>read SMS</item>
-        <item>write SMS</item>
-        <item>receive SMS</item>
-        <item>receive emergency SMS</item>
-        <item>receive MMS</item>
-        <item>receive WAP push</item>
-        <item>send SMS</item>
-        <item>read ICC SMS</item>
-        <item>write ICC SMS</item>
-        <item>modify settings</item>
-        <item>draw on top</item>
-        <item>access notifications</item>
-        <item>camera</item>
-        <item>record audio</item>
-        <item>play audio</item>
-        <item>read clipboard</item>
-        <item>modify clipboard</item>
-        <item>media buttons</item>
-        <item>audio focus</item>
-        <item>master volume</item>
-        <item>voice volume</item>
-        <item>ring volume</item>
-        <item>media volume</item>
-        <item>alarm volume</item>
-        <item>notification volume</item>
-        <item>bluetooth volume</item>
-        <item>keep awake</item>
-        <item>monitor location</item>
-        <item>monitor high power location</item>
+        <item>вибросигнал</item>
+        <item>читать контакты</item>
+        <item>изменять контакты</item>
+        <item>читать журнал вызовов</item>
+        <item>изменять журнал вызовов</item>
+        <item>просматривать календарь</item>
+        <item>изменять календарь</item>
+        <item>сканирование Wi-Fi</item>
+        <item>оповещение</item>
+        <item>поиск мобильных сетей</item>
+        <item>звонить</item>
+        <item>читать СМС</item>
+        <item>писать СМС</item>
+        <item>получать СМС</item>
+        <item>получать экстренные СМС</item>
+        <item>получать MMS</item>
+        <item>получать WAP Push</item>
+        <item>посылать СМС</item>
+        <item>читать ICC СМС</item>
+        <item>писать ICC СМС</item>
+        <item>изменять настройки</item>
+        <item>отображать поверх</item>
+        <item>получать доступ к оповещений</item>
+        <item>камера</item>
+        <item>записывать аудио</item>
+        <item>проигрывать аудио</item>
+        <item>читать буфер обмена</item>
+        <item>изменять буфер обмена</item>
+        <item>кнопки медиа</item>
+        <item>активизация звука</item>
+        <item>загальна громкость</item>
+        <item>громкость голоса</item>
+        <item>громкость звонка</item>
+        <item>громкость медиа</item>
+        <item>громкость сигнала</item>
+        <item>громкость оповещения</item>
+        <item>громкость Bluetooth</item>
+        <item>оставлять активным</item>
+        <item>отслеживать местонахождение</item>
+        <item>отслеживать энергозатратные местонахождение</item>
     </string-array>
     <string-array name="app_ops_labels">
-        <item>Location</item>
-        <item>Location</item>
-        <item>Location</item>
-        <item>Vibrate</item>
-        <item>Read contacts</item>
-        <item>Modify contacts</item>
-        <item>Read call log</item>
-        <item>Modify call log</item>
-        <item>Read calendar</item>
-        <item>Modify calendar</item>
-        <item>Location</item>
-        <item>Post notification</item>
-        <item>Location</item>
-        <item>Call phone</item>
-        <item>Read SMS/MMS</item>
-        <item>Write SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Send SMS/MMS</item>
-        <item>Read SMS/MMS</item>
-        <item>Write SMS/MMS</item>
-        <item>Modify settings</item>
-        <item>Draw on top</item>
-        <item>Access notifications</item>
-        <item>Camera</item>
-        <item>Record audio</item>
-        <item>Play audio</item>
-        <item>Read clipboard</item>
-        <item>Modify clipboard</item>
-        <item>Media buttons</item>
-        <item>Audio focus</item>
-        <item>Master volume</item>
-        <item>Voice volume</item>
-        <item>Ring volume</item>
-        <item>Media volume</item>
-        <item>Alarm volume</item>
-        <item>Notification volume</item>
-        <item>Bluetooth volume</item>
-        <item>Keep awake</item>
-        <item>Location</item>
-        <item>Location</item>
+        <item>Расположение</item>
+        <item>Расположение</item>
+        <item>Расположение</item>
+        <item>Вибросигнал</item>
+        <item>Читать контакты</item>
+        <item>Изменять контакты</item>
+        <item>Читать журнал звонков</item>
+        <item>Изменять журнал звонков</item>
+        <item>Читать календарь</item>
+        <item>Изменять календарь</item>
+        <item>Расположение</item>
+        <item>Публиковать оповещения</item>
+        <item>Расположение</item>
+        <item>Звонить на телефон</item>
+        <item>Читать СМС/MMS</item>
+        <item>Писать СМС/MMS</item>
+        <item>Получать СМС/MMS</item>
+        <item>Получать СМС/MMS</item>
+        <item>Получать СМС/MMS</item>
+        <item>Получать СМС/MMS</item>
+        <item>Посылать СМС/MMS</item>
+        <item>Читать СМС/MMS</item>
+        <item>Писать СМС/MMS</item>
+        <item>Изменять установки</item>
+        <item>Отображать поверх</item>
+        <item>Получать доступ к оповещениям</item>
+        <item>Камера</item>
+        <item>Записывать аудио</item>
+        <item>Проигрывать аудио</item>
+        <item>Читать буфер обмена</item>
+        <item>Изменять буфер обмена</item>
+        <item>Кнопки медиа</item>
+        <item>Активизация звука</item>
+        <item>Общая громкость</item>
+        <item>Громкость голоса</item>
+        <item>Громкость звонка</item>
+        <item>Громкость медиа</item>
+        <item>Громкость сигнала</item>
+        <item>Громкость оповещения</item>
+        <item>Громкость Bluetooth</item>
+        <item>Оставлять активным</item>
+        <item>Местоположение</item>
+        <item>Местоположение</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Небольшая</item>
@@ -594,7 +593,7 @@
     <string-array name="select_runtime_titles">
         <item>Dalvik</item>
         <item>ART</item>
-        <item>ART (обработка ошибок)</item>
+        <item>ART (отладка)</item>
     </string-array>
     <string-array name="select_runtime_values">
         <item>libdvm.so</item>
@@ -604,11 +603,11 @@
     <string-array name="select_runtime_summaries">
         <item>Использовать Dalvik</item>
         <item>Использовать ART</item>
-        <item>Использовать ART (Версия для обработки ошибок)</item>
+        <item>Использовать сборку ART для отладки</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Никогда не проверять</item>
-        <item>Проверять только содержание DRM</item>
+        <item>Проверять только содержимое, защищ. DRM</item>
         <item>Всегда проверять</item>
     </string-array>
     <string-array name="hdcp_checking_values">
@@ -678,12 +677,12 @@
     <string-array name="overlay_display_devices_entries">
         <item>Сеть не выбрана</item>
         <item>720x480 mdpi</item>
-        <item>720x480 mdpi (secure)</item>
+        <item>720x480 mdpi (безопас.)</item>
         <item>1280x720 tvdpi</item>
-        <item>1280x720 tvdpi (secure)</item>
+        <item>1280x720 tvdpi (безопас.)</item>
         <item>1920x1080 xhdpi</item>
-        <item>1920x1080 xhdpi (secure)</item>
-        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (безопас.)</item>
+        <item>1280x720 tvdpi та 1920x1080 xhdpi</item>
     </string-array>
     <string-array name="overlay_display_devices_values">
         <item></item>
@@ -709,8 +708,8 @@
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Выключено</item>
-        <item>ОТрисовка непрямоугольных областей в голубом</item>
-        <item>Подсвечивать тестируемые команды отрисовки в зелёном</item>
+        <item>Рисовать непрямоугольную область вырезания синим</item>
+        <item>Выделить команды рисования, которые проверяются, зеленым</item>
     </string-array>
     <string-array name="show_non_rect_clip_values">
         <item>Скрыть</item>
@@ -719,8 +718,8 @@
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Выключено</item>
-        <item>На экране как бары</item>
-        <item>На экране как линии</item>
+        <item>На экране в виде полос</item>
+        <item>На экране в виде линий</item>
         <item>Измерение времени для adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="track_frame_time_values">
@@ -730,9 +729,9 @@
         <item>true</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Выключено</item>
+        <item>Выключить</item>
         <item>Показ количества отрисовываемых объектов области</item>
-        <item>Показать областей для Deuteranomaly</item>
+        <item>Показывать области дейтераномалии</item>
         <item>Показать счетчик количества отрисовываемых объектов</item>
     </string-array>
     <string-array name="debug_hw_overdraw_values">
@@ -767,11 +766,11 @@
     </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN с подготовленными ключами</item>
+        <item>L2TP/IPSec VPN с общими ключами</item>
         <item>L2TP/IPSec VPN с сертификатами</item>
-        <item>IPSec VPN с подготовленными ключами и аудентификацией Xauth</item>
-        <item>IPSec VPN с сертификатами и аудентификацией Xauth</item>
-        <item>IPSec VPN с сертификатами и гибридной аудентификацией</item>
+        <item>IPSec VPN с общими ключами и аутентификацией Xauth</item>
+        <item>IPSec VPN с сертификатами и аутентификацией Xauth</item>
+        <item>IPSec VPN с сертификатами и гибридной аутентификацией</item>
     </string-array>
     <string-array name="vpn_states">
         <item>Отключена</item>
@@ -868,9 +867,9 @@
         <item>3</item>
     </string-array>
     <string-array name="entries_smart_rotation_nocamera">
-        <item>Предугадывание вращения экрана</item>
-        <item>Автоматическое вращение экрана</item>
-        <item>Отключено</item>
+        <item>Умный поворот экрана</item>
+        <item>Авто-поворот экрана</item>
+        <item>Выкл</item>
     </string-array>
     <string-array name="entries_button_brightness">
         <item>Включена</item>
@@ -894,16 +893,6 @@
         <item>2</item>
         <item>1</item>
         <item>0</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="entries_volume_up_option">
-        <item>Яркость экрана (Для регулировки яркости экрана, нажимайте клавиши громкости)</item>
-        <item>Быстрая съёмка (Когда экран выключен, двойное нажатие клавиш громкости сделает снимок)</item>
-        <item>Выкл.</item>
-    </string-array>
-    <string-array name="entryvalues_volume_up_option">
-        <item>1</item>
-        <item>2</item>
         <item>3</item>
     </string-array>
     <string-array name="wifi_security_wfa">

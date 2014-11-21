@@ -147,8 +147,8 @@
     <string name="bluetooth_connection_dialog_text">Подключиться к устройству \"%1$s\"?</string>
     <string name="bluetooth_phonebook_request">Запрос телефонной книги</string>
     <string name="bluetooth_pb_acceptance_dialog_text">Устройство \"%1$s\" пытается получить доступ к вашим контактам и журналу вызовов. Разрешить доступ для %2$s?</string>
-    <string name="bluetooth_remember_choice">"Больше не спрашивать"</string>
-    <string name="bluetooth_pb_remember_choice">"Больше не спрашивать"</string>
+    <string name="bluetooth_remember_choice">Больше не спрашивать</string>
+    <string name="bluetooth_pb_remember_choice">Больше не спрашивать</string>
     <string name="bluetooth_map_request">Запрос на доступ Сообщений</string>
     <string name="bluetooth_map_acceptance_dialog_text">%1$s хочет получить доступ к сообщениям. Дать доступ к %2$s?</string>
     <string name="date_and_time">Настройки даты и времени</string>
@@ -175,11 +175,11 @@
     <string name="proxy_hostname_hint">proxy.example.com</string>
     <string name="proxy_error">Внимание!</string>
     <string name="proxy_error_dismiss">ОК</string>
-    <string name="proxy_error_invalid_host">"Введено недействительное имя хоста"</string>
-    <string name="proxy_error_invalid_exclusion_list">"Список исключений отформатирован неверно. Перечислите исключаемые домены через запятую."</string>
+    <string name="proxy_error_invalid_host">Введено недействительное имя хоста</string>
+    <string name="proxy_error_invalid_exclusion_list">Список исключений отформатирован неверно. Перечислите исключаемые домены через запятую.</string>
     <string name="proxy_error_empty_port">Укажите порт.</string>
     <string name="proxy_error_empty_host_set_port">Если поле хоста не заполнено, поле порта также следует оставить пустым.</string>
-    <string name="proxy_error_invalid_port">"Указанный порт недействителен"</string>
+    <string name="proxy_error_invalid_port">Указанный порт недействителен</string>
     <string name="proxy_warning_limited_support">Прокси-сервер HTTP используется браузером, но недоступен для других приложений.</string>
     <string name="proxy_url">"URL файла автоконфигурации прокси-сервера: "</string>
     <string name="radio_info_signal_location_label">Местоположение:</string>
@@ -225,7 +225,7 @@
     <string name="sdcard_settings_not_present_status">Нет SD-карты.</string>
     <string name="sdcard_settings_available_bytes_label">Свободно байтов:</string>
     <string name="sdcard_settings_mass_storage_status">SD-карта используется как запоминающее устройство.</string>
-    <string name="sdcard_settings_unmounted_status">"SD-карту можно извлечь"</string>
+    <string name="sdcard_settings_unmounted_status">SD-карту можно извлечь</string>
     <string name="sdcard_settings_bad_removal_status">SD-карта была извлечена во время использования!</string>
     <string name="sdcard_settings_used_bytes_label">Использовано байтов:</string>
     <string name="sdcard_settings_scanning_status">Поиск мультимедиа на SD-карте...</string>
@@ -337,7 +337,7 @@
     <string name="data_usage_app_restrict_dialog">"Если будут доступны только мобильные сети, программы, зависящие от фонового режима, могут перестать работать.
 
 Установите другие параметры передачи данных в настройках приложения"</string>
-    <string name="data_usage_restrict_denied_dialog">"Ограничение фонового режима возможно только при лимитировании мобильного трафика"</string>
+    <string name="data_usage_restrict_denied_dialog">Ограничение фонового режима возможно только при лимитировании мобильного трафика</string>
     <string name="data_usage_auto_sync_on_dialog_title">Включить авто-синхронизацию?</string>
     <string name="data_usage_auto_sync_on_dialog">"Все изменения, внесенные в аккаунты на компьютере, будут автоматически скопированы на устройство.
 
@@ -345,7 +345,7 @@
 
 Чтобы указать для каждого аккаунта, какие данные нужно синхронизировать, перейдите в меню Настройки -> Аккаунты"</string>
     <string name="data_usage_auto_sync_off_dialog_title">Отключить автосинхронизацию?</string>
-    <string name="data_usage_auto_sync_off_dialog">"Это сократит трафик и расход энергии. Однако чтобы получать новые данные, необходимо будет синхронизировать каждый аккаунт вручную. При этом уведомления об обновлениях отображаться не будут"</string>
+    <string name="data_usage_auto_sync_off_dialog">Это сократит трафик и расход энергии. Однако чтобы получать новые данные, необходимо будет синхронизировать каждый аккаунт вручную. При этом уведомления об обновлениях отображаться не будут</string>
     <string name="data_usage_cycle_editor_title">Удаление статистики</string>
     <string name="data_usage_cycle_editor_subtitle">День месяца:</string>
     <string name="data_usage_cycle_editor_positive">Установить</string>
@@ -356,7 +356,7 @@
 
 Во избежание дополнительных расходов старайтесь не достигать этого лимита, так как оператор и ваше устройство могут по-разному учитывать трафик."</string>
     <string name="data_usage_restrict_background_title">Ограничение фонового режима?</string>
-    <string name="data_usage_restrict_background">"Если ограничить передачу данных в фоновом режиме, некоторые приложения и службы не будут работать без подключения к сети Wi-Fi"</string>
+    <string name="data_usage_restrict_background">Если ограничить передачу данных в фоновом режиме, некоторые приложения и службы не будут работать без подключения к сети Wi-Fi</string>
     <string name="data_usage_restrict_background_multiuser">"Если ограничить передачу данных в фоновом режиме, некоторые приложения и службы не будут работать без подключения к сети Wi-Fi.
 
 Настройки будут изменены для всех пользователей устройства"</string>
@@ -368,7 +368,7 @@
     <string name="data_usage_uninstalled_apps_users">Удаленные приложения и пользователи</string>
     <string name="data_usage_received_sent">%1$s получено, %2$s отправлено</string>
     <string name="data_usage_total_during_range">%2$s: около %1$s использовано</string>
-    <string name="data_usage_total_during_range_mobile">"%2$s: около %1$s использовано. Данные оператора могут отличаться"</string>
+    <string name="data_usage_total_during_range_mobile">%2$s: около %1$s использовано. Данные оператора могут отличаться</string>
     <string name="data_usage_metered_title">Точки доступа мобильной сети</string>
     <string name="data_usage_metered_body">Выберите сети Wi-Fi с тарификацией трафика. Возможно, приложения не смогут использовать их для работы в фоновом режиме. Кроме того, перед загрузкой больших объемов данных может появляться предупреждение</string>
     <string name="data_usage_metered_mobile">Мобильные сети</string>
@@ -376,7 +376,7 @@
     <string name="data_usage_metered_wifi_disabled">Чтобы выбрать точку доступа, включите Wi-Fi</string>
     <string name="cryptkeeper_emergency_call">Экстренный вызов</string>
     <string name="cryptkeeper_return_to_call">Вернуться к вызову</string>
-	<string name="data_connect_settings_title">Передача данных</string>
+    <string name="data_connect_settings_title">Передача данных</string>
     <string name="devices_info_products_version">Модель: Lenovo K910</string>
     <string name="devices_info_firmwareVersion">Версия Android: %1$s</string>
     <string name="devices_info_buildNumber">Серия: %1$s</string>
@@ -400,7 +400,7 @@
     <string name="mtk_datausage_overview_mobile_usage" formatted="false">%s из %s</string>
     <string name="mtk_datausage_overview_mobile_usage_warning">Превышено %s</string>
     <string name="updating_settings">Обновление настроек…</string>
-    <string name="cdma_not_support">"CDMA данную функцию не поддерживает"</string>
+    <string name="cdma_not_support">CDMA данную функцию не поддерживает</string>
     <string name="service_3g_off">Выкл</string>
     <string name="enable_3G_service">Включить 3G</string>
     <string name="setting_for_3G_service">3G сервис</string>
@@ -415,8 +415,8 @@
     <string name="search_networks">Поиск сетей</string>
     <string name="network_query_error">Ошибка поиска сетей</string>
     <string name="register_on_network">Регистрация %s…</string>
-    <string name="not_allowed">"Вашей SIM-карте не разрешено подключение к этой сети"</string>
-    <string name="connect_later">"Не удается подключиться к этой сети прямо сейчас. Повторите попытку позже"</string>
+    <string name="not_allowed">Вашей SIM-карте не разрешено подключение к этой сети</string>
+    <string name="connect_later">Не удается подключиться к этой сети прямо сейчас. Повторите попытку позже</string>
     <string name="registration_done">Регистрация в сети</string>
     <string name="sum_search_networks">Поиск всех доступных сетей</string>
     <string name="select_automatically">Выбрать автоматически</string>
@@ -445,13 +445,13 @@
 Рекомендуется использовать \"Выбрать автоматически\", или выберите другого оператора вручную."</string>
     <string name="no_service_msg">"В настоящее время, сеть выбранного оператора отсутствует.
 Рекомендуется использовать \"Выбрать автоматически\", или выберите другого оператора вручную."</string>
-    <string name="show_always_title">"Не уведомлять меня снова"</string>
+    <string name="show_always_title">Не уведомлять меня снова</string>
     <string name="no_service_msg_title_gemini">Нет сети для \"%s\"</string>
     <string name="no_service_msg_title">Нет сети</string>
     <string name="gemini_data_connection">Соединение передачи данных</string>
     <string name="international_dialing_title">Помощник междунароных вызовов</string>
-    <string name="international_dialing_select_country">"Обнаружен интернациоональный вызов. Выберите место назначения."</string>
-    <string name="international_dialing_add_country_code" formatted="false">"Обнаружено, что набираемый номер - %s. Хотите добавить код страны (+%s)?"</string>
+    <string name="international_dialing_select_country">Обнаружен интернациоональный вызов. Выберите место назначения.</string>
+    <string name="international_dialing_add_country_code" formatted="false">Обнаружено, что набираемый номер - %s. Хотите добавить код страны (+%s)?</string>
     <string name="international_dialing_add_country_code_and_area_code">"It's detected that you are dialing a number in %1$s, %2$s. Do you want to add the country code and the area code (+%3$s)?"</string>
     <string name="international_dialing_change_country_prefix">"It's detected that you're dialing from the %s. Change international call prefix to '+'?"</string>
     <string name="international_dialing_add_country_code_input_area_code">"It's detected that you're dialing a number in %s. If so, please enter the area code."</string>
@@ -506,7 +506,7 @@
     <string name="phone_entered_ecm_text">Активация режима Экстренных вызовов</string>
     <string name="phone_in_ecm_notification_title">Режим Экстренных вызовов</string>
     <string name="phone_in_ecm_call_notification_text">Передача данных отключена</string>
-    <string name="alert_dialog_in_ecm_call">"Это действие запрешено в режиме Экстренных вызовов"</string>
+    <string name="alert_dialog_in_ecm_call">Это действие запрешено в режиме Экстренных вызовов</string>
     <string name="progress_dialog_exiting_ecm">Выход из режима Экстренных вызовов</string>
     <string name="alert_dialog_yes">Да</string>
     <string name="alert_dialog_no">Нет</string>
@@ -545,7 +545,7 @@
     <string name="reverting_settings">Возврат параметров...</string>
     <string name="response_error">Неожиданный ответ от сети</string>
     <string name="exception_error">Ошибка сети или SIM-карты</string>
-    <string name="fdn_check_failure">"Ваше приложение для фиксированых номеров, включено. Как результат, некоторые функция, связанные с вызовом, не доступны."</string>
+    <string name="fdn_check_failure">Ваше приложение для фиксированых номеров, включено. Как результат, некоторые функция, связанные с вызовом, не доступны.</string>
     <string name="radio_off_error">Прежде чем открыть эти настройки, включите сотовую сеть</string>
     <string name="close_dialog">ОК</string>
     <string name="enable">Включить</string>

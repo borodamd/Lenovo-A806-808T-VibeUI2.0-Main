@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<resources>
     <string name="accessibility_switch_to_mav">Переключить на MAV</string>
     <string name="accessibility_video_shutter_button">Кнопка видеосъемки</string>
     <string name="accessibility_switch_to_hdr">Переключить в режим HDR</string>
@@ -296,6 +296,13 @@
     <string name="long_tap_tip">Долгое нажатие для непрерывной съемки</string>
     <string name="neverask">Никогда не спрашивать</string>
     <string name="not_enough_space_for_nosdcard">На USB-накопителе нет места.</string>
+    <string name="Warning_WFD_Dialog">Предупреждение</string>
+    <string name="Text_WFD_Dialog">При подключении Wi-Fi Display весь контент, защищенный от копирования, будет скрыт.</string>
+    <string name="Disconnecd_WFD">Выключить Wi-Fi Display</string>
+    <string name="Hind_DRMImage_WFD">Продолжить</string>
+    <string name="empty_image_album">Фотографий нет</string>
+    <string name="empty_video_album">Видеофайлов нет.</string>
+    <string name="gallery_and_camera">Камера и фотоальбом Lenovo</string>
     <string name="title_activity_filter_show">Графический редактор</string>
     <string name="cannot_load_image">Не удалось загрузить изображение.</string>
     <string name="original">Оригинал</string>
@@ -408,10 +415,6 @@
     <string name="stereo3d_preview_button_set">Сохранить</string>
     <string name="stereo3d_set_wallpaper_fail">Сбой установки трехмерных обоев.</string>
     <string name="widget_load_failed">Не удалось загрузить виджет</string>
-    <string name="Warning_WFD_Dialog">Предупреждение</string>
-    <string name="Text_WFD_Dialog">При подключении Wi-Fi Display весь контент, защищенный от копирования, будет скрыт.</string>
-    <string name="Disconnecd_WFD">Выключить Wi-Fi Display</string>
-    <string name="Hind_DRMImage_WFD">Продолжить</string>
     <string name="photoeditor_name">Фотостудия</string>
     <string name="loading_failure">Не удалось загрузить фотографию</string>
     <string name="saving_failure">Не удалось сохранить изменения</string>
@@ -612,9 +615,6 @@
     <string name="trim_too_short">Нельзя обрезать видео: оно слишком короткое</string>
     <string name="pano_progress_text">Создание панорамы…</string>
     <string name="save">Сохранить</string>
-    <string name="empty_image_album">Фотографий нет</string>
-    <string name="empty_video_album">Видеофайлов нет.</string>
-    <string name="gallery_and_camera">Камера и фотоальбом Lenovo</string>
     <string name="pref_camera_burstshot_4">4 снимка</string>
     <string name="pref_camera_burstshot_8">8 снимка</string>
     <string name="pref_camera_burstshot_16">16 снимка</string>
